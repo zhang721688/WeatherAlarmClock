@@ -28,3 +28,4 @@ task copyExeFile(type: Copy) {
 	from fileTree(dir: file(buildDir.absolutePath + '/ndk/libs/armeabi'), include: '*')
 	into file('src/main/assets')
 }
+
